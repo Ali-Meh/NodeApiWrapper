@@ -1,0 +1,12 @@
+{
+    "test":{
+        "ApiKey":"652921995:AAGw3gVgLyw161-7r_d_Lo2CrC92UnhMN6U",
+        "DBUrl":"mongodb://dark66test:dark66test@ds125482.mlab.com:25482/multupolldevtest"
+    },
+    "development":{
+        "ApiKey":"652921995:AAGw3gVgLyw161-7r_d_Lo2CrC92UnhMN6U",
+        "DBUrl":"mongodb://dark66test:dark66test@ds125482.mlab.com:25482/multupolldevtest"
+    }
+}
+
+
