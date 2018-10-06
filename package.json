@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node app.ts",
+    "start": "ts-node src/server.ts",
     "test": "mocha -r ts-node/register **/*.test.ts",
     "wtest": "nodemon -e js,ts,json --exec npm test",
     "wstart": "nodemon -e js,ts,json --exec npm start",

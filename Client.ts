@@ -24,8 +24,6 @@ class Client extends EventEmitter{
             console.log('Connected');
             this.client.setKeepAlive(true);    
             this.client.write(`${this.clientName}\n`);
-            // client.push(Buffer.from("Hello, server! Love, Client.","ascii"));
-            // client.resume();
             //todo add on answer Listener
 
             this.client.addListener("data",Util.onAnswerListener);
