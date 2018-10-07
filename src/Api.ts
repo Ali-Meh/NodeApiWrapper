@@ -8,7 +8,7 @@ router.get("/MAP/:Name",(req,res)=>{
     let c=client.build(req.params.Name);
     
     if(c){
-        res.send({c:c.temp});
+        res.send({c:c.map});
     }else{
         res.status(400).send({
             Code:"400",

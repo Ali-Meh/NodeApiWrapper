@@ -1,6 +1,7 @@
 import net from 'net'
 
 export class client{
+
     name:string;
     private client:net.Socket;
     map:string[][];
@@ -48,10 +49,47 @@ export class client{
         })
         client.availibleClients.push(this);
 
+        for(let i=0;i<9;i++){
+            this.map[i]=new Array<string>();
+        }
+
         this.client.on("data",(data)=>{
-            this.temp=this.Decrypt(data);
+            this.prepateMap(data);
+        })
+
+        this.client.on("close",(err)=>{
+            console.log("close");
+            
+            process.exit(0);
+        })
+        this.client.on("error",()=>{
+            process.exit(0);
+        })
+        this.client.on("end",()=>{
+            process.exit(0);
         })
     }
+    prepateMap(data: Buffer): any {
+        let rawMap=this.Decrypt(data);
+        console.log(rawMap);
+        let j=0;
+        
+        for(let i=rawMap.indexOf("@");i<rawMap.length;i++){
+            if(rawMap[i]==='\n'){
+                j++;
+                continue;
+            }
+            if(j>8)
+                return;
+            this.map[j][((i-rawMap.indexOf("@")))%10]=rawMap[i];
+        }
+        // this.map=this.transpose(this.map);
+        
+        return this.map;
+    }
+    transpose(matrix:string[][]) {
+        return matrix[0].map((col, i) => matrix.map(row => row[i]));
+      }
 
     private Decrypt(msg:Buffer){
         let buff = Buffer.from(msg.toString(), 'base64');
