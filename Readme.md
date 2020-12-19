@@ -96,7 +96,7 @@ Client ->> Server: Client Name in plain text
 
 ```
 
-[if the above is bot compiled](https://mermaidjs.github.io/mermaid-live-editor/#/view/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5DbGllbnQgLS0-PiBTZXJ2ZXI6IENvbm5lY3Rpb24gZXN0YWJsaXNoZXMuLi5cbkNsaWVudCAtPj4gU2VydmVyOiBDbGllbnQgTmFtZSBpbiBwbGFpbiB0ZXh0ICIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19)
+[if the above is bot compiled](https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5cbkNsaWVudCAtLT4-IFNlcnZlcjogQ29ubmVjdGlvbiBlc3RhYmxpc2hlcy4uLlxuXG5DbGllbnQgLT4-IFNlcnZlcjogQ2xpZW50IE5hbWUgaW4gcGxhaW4gdGV4dCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
   
 
@@ -118,7 +118,7 @@ Server ->> Client: if other Client Choose a cordinate Game Map (*)
 
 ```
 
-[link to diagram if not compiled](https://mermaidjs.github.io/mermaid-live-editor/#/view/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5TZXJ2ZXItPj4gQ2xpZW50OkdhbWVzIE1hcCAoKilcbkNsaWVudCAtPj4gU2VydmVyOkNvcnJkZW5hdGVzIGluICdYLVknIGZyb21hdCAoKilcbk5vdGUgcmlnaHQgb2YgQ2xpZW50OigqKSBhbGwgdGhlIENvbm5lY3Rpb25zPGJyPiBIYXBwZW4gaW4gQmFzZTY0PGJyPiBFbmNvZGluZ1xuU2VydmVyIC0-PiBDbGllbnQ6IGlmIG90aGVyIENsaWVudCBDaG9vc2UgYSBjb3JkaW5hdGUgR2FtZSBNYXAgKCopXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)
+[link to diagram if not compiled](https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5cblNlcnZlci0-PiBDbGllbnQ6R2FtZXMgTWFwICgqKVxuXG5DbGllbnQgLT4-IFNlcnZlcjpDb3JyZGVuYXRlcyBpbiAnWC1ZJyBmcm9tYXQgKCopXG5cbk5vdGUgcmlnaHQgb2YgQ2xpZW50OigqKSBhbGwgdGhlIENvbm5lY3Rpb25zPGJyPiBIYXBwZW4gaW4gQmFzZTY0PGJyPiBFbmNvZGluZ1xuXG5TZXJ2ZXIgLT4-IENsaWVudDogaWYgb3RoZXIgQ2xpZW50IENob29zZSBhIGNvcmRpbmF0ZSBHYW1lIE1hcCAoKilcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
   
 
