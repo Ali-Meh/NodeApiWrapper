@@ -1,4 +1,5 @@
 
+
   
 
   
@@ -86,39 +87,14 @@ as Get it will give you the last map you need to choose on
 
   
 
-```mermaid
-
-sequenceDiagram
-
-Client -->> Server: Connection establishes...
-
-Client ->> Server: Client Name in plain text
-
-```
-
-[if the above is bot compiled](https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5cbkNsaWVudCAtLT4-IFNlcnZlcjogQ29ubmVjdGlvbiBlc3RhYmxpc2hlcy4uLlxuXG5DbGllbnQgLT4-IFNlcnZlcjogQ2xpZW50IE5hbWUgaW4gcGxhaW4gdGV4dCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
+![if the above is not compiled](https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5cbkNsaWVudCAtLT4-IFNlcnZlcjogQ29ubmVjdGlvbiBlc3RhYmxpc2hlcy4uLlxuXG5DbGllbnQgLT4-IFNlcnZlcjogQ2xpZW50IE5hbWUgaW4gcGxhaW4gdGV4dCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
   
 
 ### After Connection Established
 
-  
 
-```mermaid
-
-sequenceDiagram
-
-Server->> Client:Games Map (*)
-
-Client ->> Server:Corrdenates in 'X-Y' fromat (*)
-
-Note right of Client:(*) all the Connections<br> Happen in Base64<br> Encoding
-
-Server ->> Client: if other Client Choose a cordinate Game Map (*)
-
-```
-
-[link to diagram if not compiled](https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5cblNlcnZlci0-PiBDbGllbnQ6R2FtZXMgTWFwICgqKVxuXG5DbGllbnQgLT4-IFNlcnZlcjpDb3JyZGVuYXRlcyBpbiAnWC1ZJyBmcm9tYXQgKCopXG5cbk5vdGUgcmlnaHQgb2YgQ2xpZW50OigqKSBhbGwgdGhlIENvbm5lY3Rpb25zPGJyPiBIYXBwZW4gaW4gQmFzZTY0PGJyPiBFbmNvZGluZ1xuXG5TZXJ2ZXIgLT4-IENsaWVudDogaWYgb3RoZXIgQ2xpZW50IENob29zZSBhIGNvcmRpbmF0ZSBHYW1lIE1hcCAoKilcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
+![link to diagram if not compiled](https://mermaid.ink/svg/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5cblNlcnZlci0-PiBDbGllbnQ6R2FtZXMgTWFwICgqKVxuXG5DbGllbnQgLT4-IFNlcnZlcjpDb3JyZGVuYXRlcyBpbiAnWC1ZJyBmcm9tYXQgKCopXG5cbk5vdGUgcmlnaHQgb2YgQ2xpZW50OigqKSBhbGwgdGhlIENvbm5lY3Rpb25zPGJyPiBIYXBwZW4gaW4gQmFzZTY0PGJyPiBFbmNvZGluZ1xuXG5TZXJ2ZXIgLT4-IENsaWVudDogaWYgb3RoZXIgQ2xpZW50IENob29zZSBhIGNvcmRpbmF0ZSBHYW1lIE1hcCAoKilcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
   
 
